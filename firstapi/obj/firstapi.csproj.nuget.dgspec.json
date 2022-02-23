@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\React Training\\firstapi\\firstapi.csproj": {}
+    "E:\\GitHub\\firstapi\\firstapi.csproj": {}
   },
   "projects": {
-    "E:\\React Training\\firstapi\\firstapi.csproj": {
+    "E:\\GitHub\\firstapi\\firstapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\React Training\\firstapi\\firstapi.csproj",
+        "projectUniqueName": "E:\\GitHub\\firstapi\\firstapi.csproj",
         "projectName": "firstapi",
-        "projectPath": "E:\\React Training\\firstapi\\firstapi.csproj",
+        "projectPath": "E:\\GitHub\\firstapi\\firstapi.csproj",
         "packagesPath": "C:\\Users\\d.c.lkv4\\.nuget\\packages\\",
-        "outputPath": "E:\\React Training\\firstapi\\obj\\",
+        "outputPath": "E:\\GitHub\\firstapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\d.c.lkv4\\AppData\\Roaming\\NuGet\\NuGet.Config"
