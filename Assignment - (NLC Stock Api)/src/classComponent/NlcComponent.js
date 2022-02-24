@@ -49,10 +49,10 @@ export default class NlcComponent extends Component {
     }
 
     componentDidMount() {
-        Axios.get("https://priceapi.moneycontrol.com/pricefeed/nse/equitycash/NLC").then((response) => {
+        setInterval(()=>{Axios.get("https://priceapi.moneycontrol.com/pricefeed/nse/equitycash/NLC").then((response) => {
             this.setState({ data: response.data.data })
             console.log(this.state.data)
-        });
+        })},2000)
     }
 
 }
