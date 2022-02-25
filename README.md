@@ -1,5 +1,5 @@
 # ReactTraining
-Assignments for React Workshop
+Assignments for React Workshop-
 
 Assignment-1 : Module Pattern and Singleton
 Assignment-2 : Events
