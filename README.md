@@ -16,3 +16,6 @@ Assignment-6: Employee List API - GET,DELETE,PUT,POST using Hooks
 Assignment-NLC : To display NLC Stock Data From API
 
 Assignment 7: Single Page Application (currently working on)
+
+ To prevent CORS error in Chrome (if POST and PUT doesnt work in Chrome):
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-web-security --user-data-dir=~/chromeTemp
