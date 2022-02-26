@@ -1,5 +1,4 @@
 export default function EmployeeDetailsComponent(props) {
-
     var styleObject =  {
         containerStyle: {
             width: "18rem", 
