@@ -31,12 +31,16 @@ export default class UpdateEmployeeComponent extends React.Component {
         
         return (
             <div>
+            <form onSubmit={this.updateEmployee}>
+            <div>
                Employee Name: <input type="text" name="ename" value={this.state.ename} onChange={this.changeHandler}/><br/><br/>
                 Employee Id: <input type="text" name="eid" value={this.state.eid} onChange={this.changeHandler}/><br/><br/>
                 Employee Doj: <input type="text" name="doj" value={this.state.doj} onChange={this.changeHandler} /><br/><br/>
                 Employee Salary: <input type="text" name="salary" value={this.state.salary} onChange={this.changeHandler}/><br/><br/>
                 Employee City: <input type="text" name="city" value={this.state.city} onChange={this.changeHandler}/><br/><br/>
-                <input type="button" value="Submit" onClick={this.updateEmployee} />
+                <button type="submit">Update</button>
+            </div>
+            </form>
             </div>
         )
     }
