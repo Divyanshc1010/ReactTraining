@@ -20,7 +20,7 @@ export default class EmployeeListComponent extends React.Component {
                 <PostForm></PostForm>
                 {this.state.employeeList.map((employee) => {
                     
-                    return <EmployeeDetailsComponent key={employee.id} {...employee} deleteEmployee={this.deleteEmployee}></EmployeeDetailsComponent>
+                    return <EmployeeDetailsComponent key={employee.eid} {...employee} deleteEmployee={this.deleteEmployee}></EmployeeDetailsComponent>
                 })}  
                 
             </div>

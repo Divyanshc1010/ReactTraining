@@ -111,7 +111,7 @@ export default function GetEmployeeList()
         {/* <button type="button" onClick={demo}>Demo</button>  */}
         {employeeList.map((employee) => {
             
-            return <EmployeeDetailsComponent key={employee.id} {...employee} deleteEmployee={deleteEmployee}></EmployeeDetailsComponent>
+            return <EmployeeDetailsComponent key={employee.eid} {...employee} deleteEmployee={deleteEmployee}></EmployeeDetailsComponent>
         })}  
         
     </div>

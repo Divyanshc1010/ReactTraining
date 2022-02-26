@@ -21,7 +21,7 @@ export default function EmployeeListComponent(props) {
                     }
                 }).map(function(employee) {
                     return (
-                        <EmployeeDetailsComponent {...employee}></EmployeeDetailsComponent>
+                        <EmployeeDetailsComponent key={employee.id} {...employee}></EmployeeDetailsComponent>
                     );
                 })}
             </div>
