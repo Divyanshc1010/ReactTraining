@@ -12,7 +12,7 @@ export default class EmployeeListComponent extends React.Component {
     }
 
     render() {
-        debugger;
+    
         return (
             <div>
                 <h1><i>Employee List is given Below:</i></h1><br></br>
@@ -20,7 +20,7 @@ export default class EmployeeListComponent extends React.Component {
                 <input type="button" className="btn btn-primary" value="Add A New Employee" onClick={this.newUser} /><br/><br/><hr></hr>
                 {this.state.employeeList.map((employee) => {
                     
-                    return <EmployeeDetailsComponent key={employee.id} {...employee} updateEmployee={this.updateEmployee} deleteEmployee={this.deleteEmployee}></EmployeeDetailsComponent>
+                    return <EmployeeDetailsComponent key={employee.eid} {...employee} updateEmployee={this.updateEmployee} deleteEmployee={this.deleteEmployee}></EmployeeDetailsComponent>
                 })}  
                 
             </div>
@@ -40,7 +40,7 @@ export default class EmployeeListComponent extends React.Component {
     }
 
     updateEmployee = (event) => {
-        debugger;
+    
         var employeeId = event.target.name;
         this.props.history.push("/update/" + employeeId);
     }
