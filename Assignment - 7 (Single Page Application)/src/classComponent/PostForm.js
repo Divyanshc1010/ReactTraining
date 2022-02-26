@@ -3,7 +3,7 @@ import axios from "axios";
 export default class PostForm extends Component
 {
     constructor(props){
-        super(props);
+        super(props)
         this.state={
             eid:'',
             ename:'',
@@ -17,9 +17,9 @@ export default class PostForm extends Component
         this.setState({ [e.target.name]: e.target.value })
     }
     submitHandler= e => {
-        alert('New Employee Added Successfully !! Refresh To See The Result');
+        
         axios.post("https://localhost:5001/api/Employee/AddEmp", this.state).then(()=>{
-            
+                alert('New Employee Added Successfully !! Refresh To See The Result');
         })
         
     }
